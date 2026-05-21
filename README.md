@@ -4,7 +4,7 @@ Similar to other project in this repo () but this time using the same hardware b
 
 
 
-# Commands to query the hardware on Linux with I2C Interface
+## Commands to query the hardware on Linux with I2C Interface
 #### List all USB devices
 ```bash
 lsusb
