@@ -29,7 +29,7 @@ i2cdump 6 0x28
 ```
 ### Example of ```lsusb``` and ```i2cget``` with BNO055
 Shows that the BNO055 is Bus 1 Device 9 on this specific PC.
-Then we query the data at Page 0. The first few bytes are the vendor and device ID(a0 fb 32 0f etc).
+Then we query the data at Page 0. The first few bytes are the vendor and device ID (a0 fb 32 0f etc).
 
 ```bash
 (.venv) brad@brad-NUC10i3FNK:~/source_py$ lsusb
@@ -77,7 +77,7 @@ sudo i2cdump -y 9 0x28
 pip3 install smbus2
 ```
 
-#### Run python app (named bno055test.py) with sudo, I2C_BUS_NUMBER inside ap is 9 to match the Device number from lsusb
+#### Run python app (named bno055test.py) with sudo, I2C_BUS_NUMBER inside app is 9 to match the Device number from ```lsusb```
 ```bash
 (.venv) brad@brad-NUC10i3FNK:~/source_py$ sudo python3 bno055test.py 
 .venv) brad@brad-NUC10i3FNK:~/source_py$ sudo python3 bno055test.py 
