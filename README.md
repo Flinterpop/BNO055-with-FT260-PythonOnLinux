@@ -29,7 +29,7 @@ i2cdump 6 0x28
 ```
 ### Example of ```lsusb``` and ```i2cget``` with BNO055
 Shows that the BNO055 is Bus 1 Device 9 on this specific PC.
-Thjen we query the data at Page 0. The first few bytes are the vendor and device ID. (a0 fb 32 0f etc).
+Then we query the data at Page 0. The first few bytes are the vendor and device ID(a0 fb 32 0f etc).
 
 ```bash
 (.venv) brad@brad-NUC10i3FNK:~/source_py$ lsusb
