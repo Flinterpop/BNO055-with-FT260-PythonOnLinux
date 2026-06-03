@@ -1,6 +1,6 @@
 # BNO055-with-FT260-PythonOnLinux
 
-Similar to other project in this repo () but this time using the same hardware but running on Ubuntu running on a NUC.
+Similar to other project in this repo https://github.com/Flinterpop/BNO055-with-FT260 but this time using the same hardware but running on Ubuntu running on a NUC.
 
 
 
